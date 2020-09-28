@@ -6,8 +6,26 @@
     <title>Home</title>
     <link rel="stylesheet" href="style/style.scss">
 </head>
-<body>
-    <h1>Hero Title</h1>
+<body data-barba="wrapper">
+
+    <div class="wrapper">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="./index.html"></a>home</li>
+                    <li><a href="./services.html"></a>services</li>
+                </ul>
+            </nav>
+        </header>
+
+        <main data-barba="container" data-barba-namespace="home">
+            <div class="left">
+                <h1>Reflecting Modern Realities</h1>
+                <a href="services.html" class="cta">Take me there!</a>
+            </div>
+            <img src="./images/photo1.jpg" alt="Interior">
+        </main>
+    </div>
 
     <script src="js/index.js"></script>
 </body>
