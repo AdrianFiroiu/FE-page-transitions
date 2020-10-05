@@ -94,6 +94,8 @@ ul.transition li {
     }
 }
 
-// @media(min-width: 850px) {
-
-// }
+@media(min-width: 850px) {
+    .left {
+        padding-right: 4em;
+    }
+}
